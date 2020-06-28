@@ -14,7 +14,7 @@ ventana =tk.Tk()
 #colorLetra="#FFF"
 ventana.title("Interfaz Grafica - HombreG productions :v")
 ventana.geometry("800x500")
-ventana.configure(bg="blue")
+ventana.configure(bg="black")
 ventana.resizable(False,False)
 
 
