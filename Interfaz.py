@@ -20,8 +20,13 @@ ventana.resizable(False,False)
 
 #Etiquetas Creacion
 
+#Va a funcionar como banner pricipal
 main_title =tk.Label(ventana,text="Bienvenidos",width=111,height=2)
 main_title.place(x=7,y=0)
+
+#Esto va a funcionar como etiquetas cualquiera
+Edad_label=tk.Label(text="Nombre de usuario : ", bg="white")
+Edad_label.place(x=20, y=70)
 #etiquetaN = Label(ventana,text="Nombre: ",bg=colorFondo,fg=colorLetra).place(x=50,y=50)
 #cajaN = Entry(ventana,textVariable=nombre).place(x=150,y=50)
 #etiquetaApp = Label(ventana,text="Apellido Paterno: ",bg=colorFondo,fg=colorLetra).place(x=50,y=80)
