@@ -16,7 +16,7 @@ def nuevo():
 #        suma= Temperaturas.temp(entrada1,entrada2,entrada3)
 #        return suma
 
-    
+    #Creacion de la ventana
     vvt = Tk()
     vvt.title("Calcular temperatura")
     vvt.geometry("400x400")
