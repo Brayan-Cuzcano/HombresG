@@ -1,20 +1,20 @@
 from tkinter import *
 import tkinter as tk
-import Temperaturas
+
 
 val=int
-#def nuevo():
-#    def suma():
-#        suma=int(entrada1.get())+int(entrada2.get())+int(entrada3.get())
-#        return suma
-
-
-
-
 def nuevo():
     def suma():
-        suma= Temperaturas.temp(entrada1,entrada2,entrada3)
+        suma=int(entrada1.get())+int(entrada2.get())+int(entrada3.get())
         return suma
+
+
+
+
+#def nuevo():
+#    def suma():
+#        suma= Temperaturas.temp(entrada1,entrada2,entrada3)
+#        return suma
 
     
     vvt = Tk()

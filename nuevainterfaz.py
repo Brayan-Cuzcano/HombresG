@@ -1,12 +1,13 @@
-#Importamos librerias como tkinter , modulos los cuales van a ayudar como ventanas secundarias,
-#y por ultimo para manera mas estetica , hemos importado un datetime , para que aparesca en un
-#cuadro la fecha actual.
-
 from tkinter import *
 import tkinter as tk
 from tkinter import messagebox
 from secundario import nuevo
 from datetime import date
+
+#Importamos librerias como tkinter , modulos los cuales van a ayudar como ventanas secundarias,
+#y por ultimo para manera mas estetica , hemos importado un datetime , para que aparesca en un
+#cuadro la fecha actual.
+
 
 
 lista = []
